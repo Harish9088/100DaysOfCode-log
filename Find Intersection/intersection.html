@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array intersection</title>
+	<style type="text/css">
+		body {
+			margin-left: 3%;
+			width:50%;
+		}
+	</style>
+</head>
+<body>
+    <h1>Find Intersection</h1>
+    <h3>Description:</h3>
+    <p>Have the function</p>
+    <div>
+     <p>FindIntersection(strArr) read the array of strings stored in strArr which will contain 2 elements: the first element will represent a list of comma-separated numbers sorted in ascending order, the second element will represent a second list of comma-separated numbers (also sorted). Your goal is to return a comma-separated string containing the numbers that occur in elements of strArr in sorted order. </p>
+    </div>
+    <h4>Enter the numbers in the format -->"1,2,3","1,32,3"</h4></br>
+
+    Input: <input type="text" name="" id="values" placeholder="Enter the values here">
+   <button onclick="FindIntersection()">Result</button>
+    <h2>Results shown here:</h2>
+   <h2></h2>
+
+   <script type="text/javascript">
+   	
+   function FindIntersection(strArr) { 
+    // var strArr = ["1,3,4,7,13","1,2,4,13,15"];
+    // var strArr = ["1,3,9,10,17,18","1,4,9,10"];
+    var input=document.querySelector("#values");
+    var inputVal=input.value
+    var strArr=JSON.parse ("["+inputVal+"]");
+    var result=[];
+    var cont=[];
+    for(var i=0;i<strArr.length;i++){
+      var box=strArr[i];
+       var boxArr=box.split(",");
+          
+      for(var j=0;j<boxArr.length;j++){
+
+      	  result.push(Number(boxArr[j]));
+      	}
+      }
+       // console.log(result);
+      var duplicates = result.reduce(function(acc, el, i, arr) {
+          if (arr.indexOf(el) !== i && acc.indexOf(el) < 0) acc.push(el); return acc;
+          
+              }, []);
+      document.querySelector("h2").innerHTML="The intersection values in the Sorted order are: "+duplicates;
+      console.log(duplicates);
+       return strArr; 
+    }
+   </script>
+</body>
+</html>
