@@ -1,0 +1,21 @@
+#javascript program for finding longest word in a sentence.
+
+function LongestWord() { 
+var str="ive adorejjahzn cloudshhHZj ishsaggsg";
+var strNew=str.replace(/[^a-zA-Z ]/g, "");
+ var count = strNew.split(" ");
+
+var result="";
+
+ if(str===""){
+ return false;
+}
+else {
+for(var i=0;i<count.length;i++){
+   if(count[i].length>result.length ||count[i].length===result.length){
+      result= count[i];
+
+     }
+   }
+console.log(result);}
+}
