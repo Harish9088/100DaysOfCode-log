@@ -11,3 +11,7 @@ Thoughts:i felt building from basics will be more helpful to develope programmin
 Todays Progress:today i've played around javascript strings,
 Thoughts:felt really great.
 
+#Day-3:Augest 20.thursday
+Todays Progress:today i've started javascript functions,
+Thoughts:which are really interesting and important.
+
