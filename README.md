@@ -15,3 +15,7 @@ Thoughts:felt really great.
 Todays Progress:today i've started javascript functions,
 Thoughts:which are really interesting and important.
 
+#Day-5:Augest 21.friday
+Todays Progress:today i've run javascript functions for form validation,
+Thoughts:felt really interesting.
+
