@@ -19,3 +19,19 @@ Thoughts:which are really interesting and important.
 Todays Progress:today i've run javascript functions for form validation,
 Thoughts:felt really interesting.
 
+#Day-6:Augest 22.saturday
+Todays Progress:Today i've learned about basics of Webdesigning which i felt like a modern days art Form.
+Thoughts:felt really interesting.
+
+#Day-7:Augest 23.sunday
+Todays Progress:Today i tried to write code which uses arrays as database to insert js items dynamically.
+Thoughts:Went through various array concepts.
+
+#Day-8:Augest 24.monday
+Todays Progress:Ive started working with javascript events
+Thoughts:Felt like magic.
+
+#Day-9Augest 25,tuesday
+Todays Progress:Today i created a simple guest list which takes names as inputs(dynamicaly) and stores them in an array.
+Thoughts:initially felt like ive lost but after reading and going through different js docs finally completed the page.
+
